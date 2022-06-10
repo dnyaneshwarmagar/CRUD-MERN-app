@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.cont{
+  display: grid;
+  grid-template-columns: repeat(3,30%);
+  gap: 2%;
+}
+.cont >div{
+  border: 2px red solid;
+  background-color: aquamarine;
+  padding: 2%;
+}
